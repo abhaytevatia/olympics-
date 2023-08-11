@@ -1,30 +1,12 @@
-DROP TABLE IF EXISTS OLYMPICS_HISTORY;
-CREATE TABLE IF NOT EXISTS OLYMPICS_HISTORY
-(
-    id          INT,
-    name        VARCHAR,
-    sex         VARCHAR,
-    age         VARCHAR,
-    height      VARCHAR,
-    weight      VARCHAR,
-    team        VARCHAR,
-    noc         VARCHAR,
-    games       VARCHAR,
-    year        INT,
-    season      VARCHAR,
-    city        VARCHAR,
-    sport       VARCHAR,
-    event       VARCHAR,
-    medal       VARCHAR
-);
+# Olympics History SQL Queries Practice
 
-DROP TABLE IF EXISTS OLYMPICS_HISTORY_NOC_REGIONS;
-CREATE TABLE IF NOT EXISTS OLYMPICS_HISTORY_NOC_REGIONS
-(
-    noc         VARCHAR,
-    region      VARCHAR,
-    notes       VARCHAR
-);
+Welcome to the Olympics History SQL Queries Practice code! In this, I will work on enhancing my SQL query skills by applying them to a real dataset. I will use the "120 years of Olympics History" dataset available on Kaggle, courtesy of the user rgriffin. This dataset will provide us with genuine data to write and practice SQL queries.
+## Dataset
 
-select * from OLYMPICS_HISTORY;
-select * from OLYMPICS_HISTORY_NOC_REGIONS;
+- **Dataset:** [120 years of Olympics History](https://www.kaggle.com/rgriffin/olympics)
+
+## Getting Started
+
+1. Clone or download this repository to your local machine.
+2. Make sure you have a SQL database management system installed (e.g., MySQL, PostgreSQL, SQLite).
+3. Import the dataset into your chosen database system using the provided dataset file.
